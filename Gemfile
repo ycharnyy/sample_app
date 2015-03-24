@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 gem 'bootstrap-sass', '2.3.2.0'
+#bcrypt — адаптивная криптографическая хеш-функция, используемая для защищенного хранения паролей. 
+gem 'bcrypt-ruby','3.1.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
