@@ -8,6 +8,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 #bcrypt — адаптивная криптографическая хеш-функция, используемая для защищенного хранения паролей. 
 gem 'bcrypt-ruby','3.1.2'
 # Use sqlite3 as the database for Active Record
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :production do
 	gem 'pg', '0.15.1'
@@ -18,7 +21,7 @@ group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 	# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-	gem 'spring'
+	gem 'spring', '1.3.6'
 end
 
 group :doc do
